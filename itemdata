@@ -1,0 +1,33 @@
+{
+	"type": "record",
+	"name": "Items",
+	"namespace": "com.amazonaws.personalize.schema",
+	"fields": [
+		{
+			"name": "ITEM_ID",
+			"type": "string"
+		},
+		{
+			"name": "GENRES",
+			"type": [
+				"null",
+				"string"
+			],
+			"categorical": true
+		},
+		{
+			"name": "ARTIST",
+			"type": "string",
+			"textual": true
+		},
+		{
+			"name": "Album",
+			"type": "string"
+		},
+		{
+			"name": "Title",
+			"type": "string"
+		}
+	],
+	"version": "1.0"
+}
